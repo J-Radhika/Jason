@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Regression Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 06 18:56:39 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>231 seconds (231779 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Automation.Jason.ts031_TestClientAuthDevices.authDevices()'><b>authDevices</b><br>Test class: Automation.Jason.ts031_TestClientAuthDevices</td>
+<td></td>
+<td>2</td>
+<td>Automation.Jason.ts031_TestClientAuthDevices@193f604a</td></tr>
+<tr>
+<td title='Automation.Jason.ts032_TestClientAuthDevicesGroup.authDevices()'><b>authDevices</b><br>Test class: Automation.Jason.ts032_TestClientAuthDevicesGroup</td>
+<td></td>
+<td>28</td>
+<td>Automation.Jason.ts032_TestClientAuthDevicesGroup@20f5239f</td></tr>
+<tr>
+<td title='Automation.Jason.ts015_GlobaluserEstateBusiness.business()'><b>business</b><br>Test class: Automation.Jason.ts015_GlobaluserEstateBusiness</td>
+<td></td>
+<td>6</td>
+<td>Automation.Jason.ts015_GlobaluserEstateBusiness@306f16f3</td></tr>
+<tr>
+<td title='Automation.Jason.ts010_GlobaluserClients.clients()'><b>clients</b><br>Test class: Automation.Jason.ts010_GlobaluserClients</td>
+<td></td>
+<td>7</td>
+<td>Automation.Jason.ts010_GlobaluserClients@31e5415e</td></tr>
+<tr>
+<td title='Automation.Jason.ts018_TestClientDashboard.dashboard()'><b>dashboard</b><br>Test class: Automation.Jason.ts018_TestClientDashboard</td>
+<td></td>
+<td>2</td>
+<td>Automation.Jason.ts018_TestClientDashboard@49912c99</td></tr>
+<tr>
+<td title='Automation.Jason.ts016_GlobaluserEstateAcs.estateAcs()'><b>estateAcs</b><br>Test class: Automation.Jason.ts016_GlobaluserEstateAcs</td>
+<td></td>
+<td>9</td>
+<td>Automation.Jason.ts016_GlobaluserEstateAcs@702b8b12</td></tr>
+<tr>
+<td title='Automation.Jason.ts006_GlobalUserEstateCountries.estateCountries()'><b>estateCountries</b><br>Test class: Automation.Jason.ts006_GlobalUserEstateCountries</td>
+<td></td>
+<td>7</td>
+<td>Automation.Jason.ts006_GlobalUserEstateCountries@4e096385</td></tr>
+<tr>
+<td title='Automation.Jason.ts022_TestClientEstateLocations.estateLocations()'><b>estateLocations</b><br>Test class: Automation.Jason.ts022_TestClientEstateLocations</td>
+<td></td>
+<td>10</td>
+<td>Automation.Jason.ts022_TestClientEstateLocations@550ee7e5</td></tr>
+<tr>
+<td title='Automation.Jason.ts004_GlobalUserExternalGroup.externalGroup()'><b>externalGroup</b><br>Test class: Automation.Jason.ts004_GlobalUserExternalGroup</td>
+<td></td>
+<td>10</td>
+<td>Automation.Jason.ts004_GlobalUserExternalGroup@1613674b</td></tr>
+<tr>
+<td title='Automation.Jason.ts019_TestClientExternaluser.externalUser()'><b>externalUser</b><br>Test class: Automation.Jason.ts019_TestClientExternaluser</td>
+<td></td>
+<td>9</td>
+<td>Automation.Jason.ts019_TestClientExternaluser@10163d6</td></tr>
+<tr>
+<td title='Automation.Jason.ts012_GlobaluserFailedJobs.failedJobs()'><b>failedJobs</b><br>Test class: Automation.Jason.ts012_GlobaluserFailedJobs</td>
+<td></td>
+<td>1</td>
+<td>Automation.Jason.ts012_GlobaluserFailedJobs@1cbb87f3</td></tr>
+<tr>
+<td title='Automation.Jason.ts036_TestClientLandingpageFlows.flows()'><b>flows</b><br>Test class: Automation.Jason.ts036_TestClientLandingpageFlows</td>
+<td></td>
+<td>1</td>
+<td>Automation.Jason.ts036_TestClientLandingpageFlows@d29f28</td></tr>
+<tr>
+<td title='Automation.Jason.ts020_TestClientInternaluser.internalUser()'><b>internalUser</b><br>Test class: Automation.Jason.ts020_TestClientInternaluser</td>
+<td></td>
+<td>9</td>
+<td>Automation.Jason.ts020_TestClientInternaluser@2dde1bff</td></tr>
+<tr>
+<td title='Automation.Jason.ts014_GlobaluserInternalGroup.internalUsers()'><b>internalUsers</b><br>Test class: Automation.Jason.ts014_GlobaluserInternalGroup</td>
+<td></td>
+<td>10</td>
+<td>Automation.Jason.ts014_GlobaluserInternalGroup@1b6e1eff</td></tr>
+<tr>
+<td title='Automation.Jason.ts008_GlobaluserLandingPages.landingPages()'><b>landingPages</b><br>Test class: Automation.Jason.ts008_GlobaluserLandingPages</td>
+<td></td>
+<td>7</td>
+<td>Automation.Jason.ts008_GlobaluserLandingPages@693fe6c9</td></tr>
+<tr>
+<td title='Automation.Jason.ts024_TestClientLandingPages.landingPages()'><b>landingPages</b><br>Test class: Automation.Jason.ts024_TestClientLandingPages</td>
+<td></td>
+<td>8</td>
+<td>Automation.Jason.ts024_TestClientLandingPages@247d8ae</td></tr>
+<tr>
+<td title='Automation.Jason.ts001_LoginToJason.launchbrowser()'><b>launchbrowser</b><br>Test class: Automation.Jason.ts001_LoginToJason</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts001_LoginToJason@6631f5ca</td></tr>
+<tr>
+<td title='Automation.Jason.ts017_TestClientMarketing.marketing()'><b>marketing</b><br>Test class: Automation.Jason.ts017_TestClientMarketing</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts017_TestClientMarketing@22e357dc</td></tr>
+<tr>
+<td title='Automation.Jason.ts009_GlobaluserMessages.messages()'><b>messages</b><br>Test class: Automation.Jason.ts009_GlobaluserMessages</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts009_GlobaluserMessages@34f5090e</td></tr>
+<tr>
+<td title='Automation.Jason.ts026_TestClientReports.reports()'><b>reports</b><br>Test class: Automation.Jason.ts026_TestClientReports</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts026_TestClientReports@6a84a97d</td></tr>
+<tr>
+<td title='Automation.Jason.ts013_RIPA.ripaServices()'><b>ripaServices</b><br>Test class: Automation.Jason.ts013_RIPA</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts013_RIPA@1a4013</td></tr>
+<tr>
+<td title='Automation.Jason.ts033_TestClientEstateRoamingLocations.roamingLocations()'><b>roamingLocations</b><br>Test class: Automation.Jason.ts033_TestClientEstateRoamingLocations</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts033_TestClientEstateRoamingLocations@57af006c</td></tr>
+<tr>
+<td title='Automation.Jason.ts011_GlobaluserRoamingPartners.roamingPartners()'><b>roamingPartners</b><br>Test class: Automation.Jason.ts011_GlobaluserRoamingPartners</td>
+<td></td>
+<td>8</td>
+<td>Automation.Jason.ts011_GlobaluserRoamingPartners@a2431d0</td></tr>
+<tr>
+<td title='Automation.Jason.ts007_GlobaluserServiceEvent.serviceEvent()'><b>serviceEvent</b><br>Test class: Automation.Jason.ts007_GlobaluserServiceEvent</td>
+<td></td>
+<td>5</td>
+<td>Automation.Jason.ts007_GlobaluserServiceEvent@649bec2e</td></tr>
+<tr>
+<td title='Automation.Jason.ts035_TestClientServiceNetworks.serviceNetworks()'><b>serviceNetworks</b><br>Test class: Automation.Jason.ts035_TestClientServiceNetworks</td>
+<td></td>
+<td>11</td>
+<td>Automation.Jason.ts035_TestClientServiceNetworks@932bc4a</td></tr>
+<tr>
+<td title='Automation.Jason.ts023_TestClientServiceProducts.serviceProducts()'><b>serviceProducts</b><br>Test class: Automation.Jason.ts023_TestClientServiceProducts</td>
+<td></td>
+<td>13</td>
+<td>Automation.Jason.ts023_TestClientServiceProducts@5f9b2141</td></tr>
+<tr>
+<td title='Automation.Jason.ts034_TestClientServiceProductUpgrades.serviceProducts()'><b>serviceProducts</b><br>Test class: Automation.Jason.ts034_TestClientServiceProductUpgrades</td>
+<td></td>
+<td>8</td>
+<td>Automation.Jason.ts034_TestClientServiceProductUpgrades@6bedbc4d</td></tr>
+<tr>
+<td title='Automation.Jason.ts002_SwitchClient.switchClient()'><b>switchClient</b><br>Test class: Automation.Jason.ts002_SwitchClient</td>
+<td></td>
+<td>14</td>
+<td>Automation.Jason.ts002_SwitchClient@b62d79</td></tr>
+<tr>
+<td title='Automation.Jason.ts003_GlobalUserDashboard.userDashboard()'><b>userDashboard</b><br>Test class: Automation.Jason.ts003_GlobalUserDashboard</td>
+<td></td>
+<td>2</td>
+<td>Automation.Jason.ts003_GlobalUserDashboard@5ace1ed4</td></tr>
+<tr>
+<td title='Automation.Jason.ts005_GlobaluserUserGroup.userGroup()'><b>userGroup</b><br>Test class: Automation.Jason.ts005_GlobaluserUserGroup</td>
+<td></td>
+<td>2</td>
+<td>Automation.Jason.ts005_GlobaluserUserGroup@27ff5d15</td></tr>
+<tr>
+<td title='Automation.Jason.ts021_TestClientUserGroup.userGroup()'><b>userGroup</b><br>Test class: Automation.Jason.ts021_TestClientUserGroup</td>
+<td></td>
+<td>2</td>
+<td>Automation.Jason.ts021_TestClientUserGroup@15bbf42f</td></tr>
+<tr>
+<td title='Automation.Jason.ts027_TestClientVisitorsCustomers.visitorsCustomers()'><b>visitorsCustomers</b><br>Test class: Automation.Jason.ts027_TestClientVisitorsCustomers</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts027_TestClientVisitorsCustomers@6c130c45</td></tr>
+<tr>
+<td title='Automation.Jason.ts029_TestClientVisitorsDevices.visitorsDevices()'><b>visitorsDevices</b><br>Test class: Automation.Jason.ts029_TestClientVisitorsDevices</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts029_TestClientVisitorsDevices@223aa2f7</td></tr>
+<tr>
+<td title='Automation.Jason.ts028_TestClientVisitorsPayments.visitorsPayments()'><b>visitorsPayments</b><br>Test class: Automation.Jason.ts028_TestClientVisitorsPayments</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts028_TestClientVisitorsPayments@50ad3bc1</td></tr>
+<tr>
+<td title='Automation.Jason.ts030_TestClientVisitorsTransactions.visitorsTransactions()'><b>visitorsTransactions</b><br>Test class: Automation.Jason.ts030_TestClientVisitorsTransactions</td>
+<td></td>
+<td>0</td>
+<td>Automation.Jason.ts030_TestClientVisitorsTransactions@6d3a388c</td></tr>
+<tr>
+<td title='Automation.Jason.ts037_TestClientVoucherType.voucherType()'><b>voucherType</b><br>Test class: Automation.Jason.ts037_TestClientVoucherType</td>
+<td></td>
+<td>8</td>
+<td>Automation.Jason.ts037_TestClientVoucherType@2fd1433e</td></tr>
+<tr>
+<td title='Automation.Jason.ts025_TestClientVouchers.vouchers()'><b>vouchers</b><br>Test class: Automation.Jason.ts025_TestClientVouchers</td>
+<td></td>
+<td>3</td>
+<td>Automation.Jason.ts025_TestClientVouchers@48974e45</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<test name="Regression Testing" parallel="classes" verbose="2" >
+		<classes>
+	
+	
+		<class name="Automation.Jason.ts001_LoginToJason"/>
+		<class name="Automation.Jason.ts002_SwitchClient"/>
+		<class name="Automation.Jason.ts003_GlobalUserDashboard"/>
+		<class name="Automation.Jason.ts004_GlobalUserExternalGroup"/>
+		<class name="Automation.Jason.ts005_GlobaluserUserGroup"/>
+		<class name="Automation.Jason.ts006_GlobalUserEstateCountries"/>
+		<class name="Automation.Jason.ts007_GlobaluserServiceEvent"/>
+		<class name="Automation.Jason.ts008_GlobaluserLandingPages"/>
+		<class name="Automation.Jason.ts009_GlobaluserMessages"/>
+		<class name="Automation.Jason.ts010_GlobaluserClients"/>
+		<class name="Automation.Jason.ts011_GlobaluserRoamingPartners"/>
+		<class name="Automation.Jason.ts012_GlobaluserFailedJobs"/>
+		<class name="Automation.Jason.ts013_RIPA"/>
+		<class name="Automation.Jason.ts014_GlobaluserInternalGroup"/>
+		<class name="Automation.Jason.ts015_GlobaluserEstateBusiness"/>
+		<class name="Automation.Jason.ts016_GlobaluserEstateAcs"/>
+		
+		<class name="Automation.Jason.ts017_TestClientMarketing"/>
+		<class name="Automation.Jason.ts018_TestClientDashboard"/>
+		<class name="Automation.Jason.ts019_TestClientExternaluser"/>
+		<class name="Automation.Jason.ts020_TestClientInternaluser"/>
+		<class name="Automation.Jason.ts021_TestClientUserGroup"/>
+		<class name="Automation.Jason.ts022_TestClientEstateLocations"/>
+		<class name="Automation.Jason.ts023_TestClientServiceProducts"/>
+		<class name="Automation.Jason.ts024_TestClientLandingPages"/>
+		<class name="Automation.Jason.ts025_TestClientVouchers"/>
+		<class name="Automation.Jason.ts026_TestClientReports"/>
+		<class name="Automation.Jason.ts027_TestClientVisitorsCustomers"/>
+		<class name="Automation.Jason.ts028_TestClientVisitorsPayments"/>
+		<class name="Automation.Jason.ts029_TestClientVisitorsDevices"/>
+		<class name="Automation.Jason.ts030_TestClientVisitorsTransactions"/>
+		<class name="Automation.Jason.ts031_TestClientAuthDevices"/>
+		<class name="Automation.Jason.ts032_TestClientAuthDevicesGroup"/>
+		<class name="Automation.Jason.ts033_TestClientEstateRoamingLocations"/>
+		<class name="Automation.Jason.ts034_TestClientServiceProductUpgrades"/>
+		<class name="Automation.Jason.ts035_TestClientServiceNetworks"/>
+	
+		<class name="Automation.Jason.ts036_TestClientLandingpageFlows"/>
+		<class name="Automation.Jason.ts037_TestClientVoucherType"/>
+		
+		
+		
+		
+	
+		
+		</classes>
+			</test> <!-- Test -->
+</suite> <!-- Suite -->
+		

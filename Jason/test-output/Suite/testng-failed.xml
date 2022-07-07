@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test parallel="classes" name="Regression Testing(failed)">
+    <classes>
+      <class name="Automation.Jason.ts035_TestClientServiceNetworks">
+        <methods>
+          <include name="serviceNetworks"/>
+        </methods>
+      </class> <!-- Automation.Jason.ts035_TestClientServiceNetworks -->
+      <class name="Automation.Jason.ts002_SwitchClient">
+        <methods>
+          <include name="switchClient"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- Automation.Jason.ts002_SwitchClient -->
+      <class name="Automation.Jason.ts032_TestClientAuthDevicesGroup">
+        <methods>
+          <include name="authDevices"/>
+        </methods>
+      </class> <!-- Automation.Jason.ts032_TestClientAuthDevicesGroup -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

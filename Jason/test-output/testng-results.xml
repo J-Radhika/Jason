@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="35" total="72" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-06T13:26:39Z" name="Suite" finished-at="2022-07-06T13:30:30Z" duration-ms="231779">
+    <groups>
+    </groups>
+    <test started-at="2022-07-06T13:26:39Z" name="Regression Testing" finished-at="2022-07-06T13:30:30Z" duration-ms="231779">
+      <class name="Automation.Jason.ts006_GlobalUserEstateCountries">
+        <test-method signature="estateCountries()[pri:5, instance:Automation.Jason.ts006_GlobalUserEstateCountries@4e096385]" started-at="2022-07-06T18:57:19Z" name="estateCountries" finished-at="2022-07-06T18:57:26Z" duration-ms="7379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estateCountries -->
+      </class> <!-- Automation.Jason.ts006_GlobalUserEstateCountries -->
+      <class name="Automation.Jason.ts029_TestClientVisitorsDevices">
+        <test-method signature="visitorsDevices()[pri:28, instance:Automation.Jason.ts029_TestClientVisitorsDevices@223aa2f7]" started-at="2022-07-06T18:59:27Z" name="visitorsDevices" finished-at="2022-07-06T18:59:28Z" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitorsDevices -->
+      </class> <!-- Automation.Jason.ts029_TestClientVisitorsDevices -->
+      <class name="Automation.Jason.ts016_GlobaluserEstateAcs">
+        <test-method signature="estateAcs()[pri:15, instance:Automation.Jason.ts016_GlobaluserEstateAcs@702b8b12]" started-at="2022-07-06T18:58:14Z" name="estateAcs" finished-at="2022-07-06T18:58:24Z" duration-ms="9491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estateAcs -->
+      </class> <!-- Automation.Jason.ts016_GlobaluserEstateAcs -->
+      <class name="Automation.Jason.ts019_TestClientExternaluser">
+        <test-method signature="externalUser()[pri:18, instance:Automation.Jason.ts019_TestClientExternaluser@10163d6]" started-at="2022-07-06T18:58:26Z" name="externalUser" finished-at="2022-07-06T18:58:36Z" duration-ms="9928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- externalUser -->
+      </class> <!-- Automation.Jason.ts019_TestClientExternaluser -->
+      <class name="Automation.Jason.ts034_TestClientServiceProductUpgrades">
+        <test-method signature="serviceProducts()[pri:33, instance:Automation.Jason.ts034_TestClientServiceProductUpgrades@6bedbc4d]" started-at="2022-07-06T19:00:00Z" name="serviceProducts" finished-at="2022-07-06T19:00:09Z" duration-ms="8925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceProducts -->
+      </class> <!-- Automation.Jason.ts034_TestClientServiceProductUpgrades -->
+      <class name="Automation.Jason.ts012_GlobaluserFailedJobs">
+        <test-method signature="failedJobs()[pri:11, instance:Automation.Jason.ts012_GlobaluserFailedJobs@1cbb87f3]" started-at="2022-07-06T18:57:55Z" name="failedJobs" finished-at="2022-07-06T18:57:57Z" duration-ms="1755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedJobs -->
+      </class> <!-- Automation.Jason.ts012_GlobaluserFailedJobs -->
+      <class name="Automation.Jason.ts008_GlobaluserLandingPages">
+        <test-method signature="landingPages()[pri:7, instance:Automation.Jason.ts008_GlobaluserLandingPages@693fe6c9]" started-at="2022-07-06T18:57:32Z" name="landingPages" finished-at="2022-07-06T18:57:39Z" duration-ms="7290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPages -->
+      </class> <!-- Automation.Jason.ts008_GlobaluserLandingPages -->
+      <class name="Automation.Jason.ts018_TestClientDashboard">
+        <test-method signature="dashboard()[pri:17, instance:Automation.Jason.ts018_TestClientDashboard@49912c99]" started-at="2022-07-06T18:58:24Z" name="dashboard" finished-at="2022-07-06T18:58:26Z" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+      </class> <!-- Automation.Jason.ts018_TestClientDashboard -->
+      <class name="Automation.Jason.ts004_GlobalUserExternalGroup">
+        <test-method signature="externalGroup()[pri:3, instance:Automation.Jason.ts004_GlobalUserExternalGroup@1613674b]" started-at="2022-07-06T18:57:06Z" name="externalGroup" finished-at="2022-07-06T18:57:16Z" duration-ms="10538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- externalGroup -->
+      </class> <!-- Automation.Jason.ts004_GlobalUserExternalGroup -->
+      <class name="Automation.Jason.ts005_GlobaluserUserGroup">
+        <test-method signature="userGroup()[pri:4, instance:Automation.Jason.ts005_GlobaluserUserGroup@27ff5d15]" started-at="2022-07-06T18:57:16Z" name="userGroup" finished-at="2022-07-06T18:57:19Z" duration-ms="2335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userGroup -->
+      </class> <!-- Automation.Jason.ts005_GlobaluserUserGroup -->
+      <class name="Automation.Jason.ts014_GlobaluserInternalGroup">
+        <test-method signature="internalUsers()[pri:13, instance:Automation.Jason.ts014_GlobaluserInternalGroup@1b6e1eff]" started-at="2022-07-06T18:57:58Z" name="internalUsers" finished-at="2022-07-06T18:58:08Z" duration-ms="10398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- internalUsers -->
+      </class> <!-- Automation.Jason.ts014_GlobaluserInternalGroup -->
+      <class name="Automation.Jason.ts009_GlobaluserMessages">
+        <test-method signature="messages()[pri:8, instance:Automation.Jason.ts009_GlobaluserMessages@34f5090e]" started-at="2022-07-06T18:57:39Z" name="messages" finished-at="2022-07-06T18:57:39Z" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messages -->
+      </class> <!-- Automation.Jason.ts009_GlobaluserMessages -->
+      <class name="Automation.Jason.ts027_TestClientVisitorsCustomers">
+        <test-method signature="visitorsCustomers()[pri:26, instance:Automation.Jason.ts027_TestClientVisitorsCustomers@6c130c45]" started-at="2022-07-06T18:59:25Z" name="visitorsCustomers" finished-at="2022-07-06T18:59:26Z" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitorsCustomers -->
+      </class> <!-- Automation.Jason.ts027_TestClientVisitorsCustomers -->
+      <class name="Automation.Jason.ts013_RIPA">
+        <test-method signature="ripaServices()[pri:12, instance:Automation.Jason.ts013_RIPA@1a4013]" started-at="2022-07-06T18:57:57Z" name="ripaServices" finished-at="2022-07-06T18:57:58Z" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ripaServices -->
+      </class> <!-- Automation.Jason.ts013_RIPA -->
+      <class name="Automation.Jason.ts017_TestClientMarketing">
+        <test-method signature="marketing()[pri:16, instance:Automation.Jason.ts017_TestClientMarketing@22e357dc]" started-at="2022-07-06T18:58:24Z" name="marketing" finished-at="2022-07-06T18:58:24Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- marketing -->
+      </class> <!-- Automation.Jason.ts017_TestClientMarketing -->
+      <class name="Automation.Jason.ts011_GlobaluserRoamingPartners">
+        <test-method signature="roamingPartners()[pri:10, instance:Automation.Jason.ts011_GlobaluserRoamingPartners@a2431d0]" started-at="2022-07-06T18:57:47Z" name="roamingPartners" finished-at="2022-07-06T18:57:55Z" duration-ms="8617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roamingPartners -->
+      </class> <!-- Automation.Jason.ts011_GlobaluserRoamingPartners -->
+      <class name="Automation.Jason.ts022_TestClientEstateLocations">
+        <test-method signature="estateLocations()[pri:21, instance:Automation.Jason.ts022_TestClientEstateLocations@550ee7e5]" started-at="2022-07-06T18:58:48Z" name="estateLocations" finished-at="2022-07-06T18:58:59Z" duration-ms="10062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estateLocations -->
+      </class> <!-- Automation.Jason.ts022_TestClientEstateLocations -->
+      <class name="Automation.Jason.ts002_SwitchClient">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Automation.Jason.ts002_SwitchClient@b62d79]" started-at="2022-07-06T18:56:39Z" name="launchbrowser" finished-at="2022-07-06T18:56:49Z" duration-ms="10047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="switchClient()[pri:1, instance:Automation.Jason.ts002_SwitchClient@b62d79]" started-at="2022-07-06T18:56:49Z" name="switchClient" finished-at="2022-07-06T18:57:03Z" duration-ms="14224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchClient -->
+      </class> <!-- Automation.Jason.ts002_SwitchClient -->
+      <class name="Automation.Jason.ts020_TestClientInternaluser">
+        <test-method signature="internalUser()[pri:19, instance:Automation.Jason.ts020_TestClientInternaluser@2dde1bff]" started-at="2022-07-06T18:58:36Z" name="internalUser" finished-at="2022-07-06T18:58:46Z" duration-ms="9862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- internalUser -->
+      </class> <!-- Automation.Jason.ts020_TestClientInternaluser -->
+      <class name="Automation.Jason.ts001_LoginToJason">
+        <test-method signature="launchbrowser()[pri:0, instance:Automation.Jason.ts001_LoginToJason@6631f5ca]" started-at="2022-07-06T18:56:49Z" name="launchbrowser" finished-at="2022-07-06T18:56:49Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+      </class> <!-- Automation.Jason.ts001_LoginToJason -->
+      <class name="Automation.Jason.ts026_TestClientReports">
+        <test-method signature="reports()[pri:25, instance:Automation.Jason.ts026_TestClientReports@6a84a97d]" started-at="2022-07-06T18:59:25Z" name="reports" finished-at="2022-07-06T18:59:25Z" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+      </class> <!-- Automation.Jason.ts026_TestClientReports -->
+      <class name="Automation.Jason.ts031_TestClientAuthDevices">
+        <test-method signature="authDevices()[pri:30, instance:Automation.Jason.ts031_TestClientAuthDevices@193f604a]" started-at="2022-07-06T18:59:28Z" name="authDevices" finished-at="2022-07-06T18:59:31Z" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authDevices -->
+      </class> <!-- Automation.Jason.ts031_TestClientAuthDevices -->
+      <class name="Automation.Jason.ts007_GlobaluserServiceEvent">
+        <test-method signature="serviceEvent()[pri:6, instance:Automation.Jason.ts007_GlobaluserServiceEvent@649bec2e]" started-at="2022-07-06T18:57:26Z" name="serviceEvent" finished-at="2022-07-06T18:57:32Z" duration-ms="5675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceEvent -->
+      </class> <!-- Automation.Jason.ts007_GlobaluserServiceEvent -->
+      <class name="Automation.Jason.ts032_TestClientAuthDevicesGroup">
+        <test-method signature="authDevices()[pri:31, instance:Automation.Jason.ts032_TestClientAuthDevicesGroup@20f5239f]" started-at="2022-07-06T18:59:31Z" name="authDevices" finished-at="2022-07-06T18:59:59Z" duration-ms="28557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authDevices -->
+      </class> <!-- Automation.Jason.ts032_TestClientAuthDevicesGroup -->
+      <class name="Automation.Jason.ts033_TestClientEstateRoamingLocations">
+        <test-method signature="roamingLocations()[pri:32, instance:Automation.Jason.ts033_TestClientEstateRoamingLocations@57af006c]" started-at="2022-07-06T18:59:59Z" name="roamingLocations" finished-at="2022-07-06T19:00:00Z" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roamingLocations -->
+      </class> <!-- Automation.Jason.ts033_TestClientEstateRoamingLocations -->
+      <class name="Automation.Jason.ts023_TestClientServiceProducts">
+        <test-method signature="serviceProducts()[pri:22, instance:Automation.Jason.ts023_TestClientServiceProducts@5f9b2141]" started-at="2022-07-06T18:58:59Z" name="serviceProducts" finished-at="2022-07-06T18:59:12Z" duration-ms="13809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceProducts -->
+      </class> <!-- Automation.Jason.ts023_TestClientServiceProducts -->
+      <class name="Automation.Jason.ts030_TestClientVisitorsTransactions">
+        <test-method signature="visitorsTransactions()[pri:29, instance:Automation.Jason.ts030_TestClientVisitorsTransactions@6d3a388c]" started-at="2022-07-06T18:59:28Z" name="visitorsTransactions" finished-at="2022-07-06T18:59:28Z" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitorsTransactions -->
+      </class> <!-- Automation.Jason.ts030_TestClientVisitorsTransactions -->
+      <class name="Automation.Jason.ts028_TestClientVisitorsPayments">
+        <test-method signature="visitorsPayments()[pri:27, instance:Automation.Jason.ts028_TestClientVisitorsPayments@50ad3bc1]" started-at="2022-07-06T18:59:26Z" name="visitorsPayments" finished-at="2022-07-06T18:59:27Z" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitorsPayments -->
+      </class> <!-- Automation.Jason.ts028_TestClientVisitorsPayments -->
+      <class name="Automation.Jason.ts035_TestClientServiceNetworks">
+        <test-method signature="serviceNetworks()[pri:34, instance:Automation.Jason.ts035_TestClientServiceNetworks@932bc4a]" started-at="2022-07-06T19:00:09Z" name="serviceNetworks" finished-at="2022-07-06T19:00:20Z" duration-ms="11337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceNetworks -->
+      </class> <!-- Automation.Jason.ts035_TestClientServiceNetworks -->
+      <class name="Automation.Jason.ts036_TestClientLandingpageFlows">
+        <test-method signature="flows()[pri:35, instance:Automation.Jason.ts036_TestClientLandingpageFlows@d29f28]" started-at="2022-07-06T19:00:20Z" name="flows" finished-at="2022-07-06T19:00:22Z" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flows -->
+      </class> <!-- Automation.Jason.ts036_TestClientLandingpageFlows -->
+      <class name="Automation.Jason.ts024_TestClientLandingPages">
+        <test-method signature="landingPages()[pri:23, instance:Automation.Jason.ts024_TestClientLandingPages@247d8ae]" started-at="2022-07-06T18:59:12Z" name="landingPages" finished-at="2022-07-06T18:59:21Z" duration-ms="8887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPages -->
+      </class> <!-- Automation.Jason.ts024_TestClientLandingPages -->
+      <class name="Automation.Jason.ts010_GlobaluserClients">
+        <test-method signature="clients()[pri:9, instance:Automation.Jason.ts010_GlobaluserClients@31e5415e]" started-at="2022-07-06T18:57:39Z" name="clients" finished-at="2022-07-06T18:57:47Z" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clients -->
+      </class> <!-- Automation.Jason.ts010_GlobaluserClients -->
+      <class name="Automation.Jason.ts021_TestClientUserGroup">
+        <test-method signature="userGroup()[pri:20, instance:Automation.Jason.ts021_TestClientUserGroup@15bbf42f]" started-at="2022-07-06T18:58:46Z" name="userGroup" finished-at="2022-07-06T18:58:48Z" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userGroup -->
+      </class> <!-- Automation.Jason.ts021_TestClientUserGroup -->
+      <class name="Automation.Jason.ts003_GlobalUserDashboard">
+        <test-method signature="userDashboard()[pri:2, instance:Automation.Jason.ts003_GlobalUserDashboard@5ace1ed4]" started-at="2022-07-06T18:57:03Z" name="userDashboard" finished-at="2022-07-06T18:57:06Z" duration-ms="2871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDashboard -->
+      </class> <!-- Automation.Jason.ts003_GlobalUserDashboard -->
+      <class name="Automation.Jason.ts037_TestClientVoucherType">
+        <test-method signature="voucherType()[pri:36, instance:Automation.Jason.ts037_TestClientVoucherType@2fd1433e]" started-at="2022-07-06T19:00:22Z" name="voucherType" finished-at="2022-07-06T19:00:30Z" duration-ms="8217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voucherType -->
+      </class> <!-- Automation.Jason.ts037_TestClientVoucherType -->
+      <class name="Automation.Jason.ts025_TestClientVouchers">
+        <test-method signature="vouchers()[pri:24, instance:Automation.Jason.ts025_TestClientVouchers@48974e45]" started-at="2022-07-06T18:59:21Z" name="vouchers" finished-at="2022-07-06T18:59:25Z" duration-ms="3549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vouchers -->
+      </class> <!-- Automation.Jason.ts025_TestClientVouchers -->
+      <class name="Automation.Jason.ts015_GlobaluserEstateBusiness">
+        <test-method signature="business()[pri:14, instance:Automation.Jason.ts015_GlobaluserEstateBusiness@306f16f3]" started-at="2022-07-06T18:58:08Z" name="business" finished-at="2022-07-06T18:58:14Z" duration-ms="6463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- business -->
+      </class> <!-- Automation.Jason.ts015_GlobaluserEstateBusiness -->
+    </test> <!-- Regression Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
